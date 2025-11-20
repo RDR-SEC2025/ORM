@@ -20,7 +20,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-'''
+~~~
 from django.contrib import admin
 from .models import amazon_DB,amazon_DBAdmin
 admin.site.register(amazon_DB,amazon_DBAdmin)
@@ -36,7 +36,7 @@ class amazon_DB (models.Model):
 class amazon_DBAdmin(admin.ModelAdmin):
      list_display=["Product_name","S_no","Product_type","Price","Year"]
 '''
-
+~~~
  
 ## OUTPUT
 
